@@ -2,8 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get("/", function () {
+    return view("home");
+})->name( 'home');
 
-require_once base_path('app/Modules/Clientes/Routes/web.php');
+$rutas = glob(base_path('app/Modules/*/Routes/web.php'));
+
+foreach ($rutas as $ruta) {
+    require_once $ruta;
+}

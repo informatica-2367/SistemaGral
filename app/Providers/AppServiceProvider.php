@@ -19,5 +19,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         View::addNamespace('Clientes', base_path('app/Modules/Clientes/Views'));
+        View::addNamespace('Users', base_path('app/Modules/Users/Views'));
     }
 }

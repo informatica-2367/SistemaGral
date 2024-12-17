@@ -9,3 +9,4 @@ Route::post('/clientes', [ClienteController::class, 'store'])->name('cliente.sto
 Route::delete('/clientes/{id}', [ClienteController::class, 'delete'])->name('cliente.delete');
 Route::get('/clientes/{id}/edit', [ClienteController::class, 'edit'])->name('cliente.edit');
 Route::put('/clientes/{id}', [ClienteController::class, 'update'])->name('cliente.update');
+Route::get('/clientes/reset', [ClienteController::class, 'resetClientes']);
