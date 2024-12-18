@@ -27,7 +27,7 @@ class UserController extends Controller {
             return redirect()->route('cliente.index');
         }
 
-            return route('login');
+            return redirect()->route('login');
     }
 
     public function logout()
