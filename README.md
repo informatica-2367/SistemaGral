@@ -14,10 +14,11 @@ git fetch
 git pull origin master
 ```
 
-2. Una vez ya con el repo actualizado al último commit, ejecutar el script:
+2. Una vez ya con el repo actualizado al último commit, ejecutar el/los script:
 ### Windows
 ```bash
-.\setup.bat
+.\setup1.bat
+.\setup2.bat
 ```
 o
 ```bash
