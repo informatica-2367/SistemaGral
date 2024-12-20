@@ -22,7 +22,8 @@ git pull origin master
 ```
 o
 ```bash
-setup.bat
+setup1.bat
+setup2.bat
 ```
 
 ### Linux
